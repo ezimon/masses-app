@@ -56,9 +56,9 @@ export const UserForm = () => {
       form.surname === "" ||
       form.id === "" ||
       form.nationality === "" ||
-      form.nationality === 'SELECT' ||
+      form.nationality === "SELECT" ||
       form.current === "" ||
-      form.current === 'SELECT' ||
+      form.current === "SELECT" ||
       form.email === "" ||
       form.phone === "" ||
       form.birthday === "" ||
@@ -103,7 +103,7 @@ export const UserForm = () => {
       ) : (
         <div className="form-div fade">
           <div className="form">
-            <label>
+            <div className="input-div">
               Project:{"    "}
               <select
                 name="project"
@@ -115,9 +115,9 @@ export const UserForm = () => {
                   <option value={project}>{project}</option>
                 ))}
               </select>
-            </label>
-            <br />
-            <label>
+            </div>
+            {/* <br /> */}
+            <div className="input-div">
               Name:{"    "}
               <input
                 type="text"
@@ -126,9 +126,9 @@ export const UserForm = () => {
                   setForm({ ...form, name: event.target.value });
                 }}
               />
-            </label>
-            <br />
-            <label>
+            </div>
+            {/* <br /> */}
+            <div className="input-div">
               Last name:{"    "}
               <input
                 type="text"
@@ -137,9 +137,9 @@ export const UserForm = () => {
                   setForm({ ...form, surname: event.target.value });
                 }}
               />
-            </label>
-            <br />
-            <label>
+            </div>
+            {/* <br /> */}
+            <div className="input-div">
               ID:{"    "}
               <input
                 type="text"
@@ -149,9 +149,9 @@ export const UserForm = () => {
                   //   setId(event.target.value);
                 }}
               />
-            </label>
-            <br />
-            <label>
+            </div>
+            {/* <br /> */}
+            <div className="input-div">
               Date of birth:{"    "}
               <input
                 type="date"
@@ -160,13 +160,13 @@ export const UserForm = () => {
                   setForm({ ...form, birthday: event.target.value });
                 }}
               />
-            </label>
-            <br />
+            </div>
+            {/* <br /> */}
             <Nations form={form} setForm={setForm} selectType={"nationality"} />
-            <br />
+            {/* <br /> */}
             <Nations form={form} setForm={setForm} selectType={"current"} />
-            <br />
-            <label>
+            {/* <br /> */}
+            <div className="input-div">
               Email:{"    "}
               <input
                 type="text"
@@ -175,17 +175,17 @@ export const UserForm = () => {
                   setForm({ ...form, email: event.target.value });
                 }}
               />
-            </label>
-            <br />
-            <label className="phone-fix">
-              <div className="phone-label">Phone number:</div>
+            </div>
+            {/* <br /> */}
+            <div className="input-div input-fix">
+              <div className="phone-div">Phone number:</div>
               <PhoneInput
                 placeholder="Enter phone number"
                 name="phone"
                 value={phone}
                 onChange={setPhone}
               />
-            </label>
+            </div>
             <br />
             <br />
             <br />

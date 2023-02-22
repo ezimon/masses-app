@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import axios from "axios";
 
@@ -8,13 +8,6 @@ export const Terms = () => {
   const id = params.get("id");
 
   const [read, setRead] = useState(false);
-
-  useEffect(() => {
-    toast(
-      "Please read and accept by pressing 'I accept the Terms and Conditions'"
-    );
-    // eslint-disable-next-line
-  }, []);
 
   const apr = () => {
     axios
