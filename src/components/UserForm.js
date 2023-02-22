@@ -56,7 +56,9 @@ export const UserForm = () => {
       form.surname === "" ||
       form.id === "" ||
       form.nationality === "" ||
+      form.nationality === 'SELECT' ||
       form.current === "" ||
+      form.current === 'SELECT' ||
       form.email === "" ||
       form.phone === "" ||
       form.birthday === "" ||

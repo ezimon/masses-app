@@ -2,6 +2,7 @@ import React from "react";
 
 export const Nations = ({ setForm, form, selectType }) => {
   const countryList = [
+    "SELECT",
     "Afghanistan",
     "Albania",
     "Algeria",
