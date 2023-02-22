@@ -2,37 +2,98 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(86, 99, 169);
+  color: rgb(221, 219, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input,
+select,
+button {
+  background-color: rgb(86, 99, 169);
+  border: 1.5px solid rgb(221, 219, 0);
+  border-radius: 2px;
+  padding: 0.25rem;
+  color: rgb(221, 219, 0);
+  margin-left: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  padding: 0.5rem 1.25rem;
+  border: 3px solid whitesmoke;
+  border-radius: 0.25rem;
+  background-color: whitesmoke;
+  font-size: 1rem;
+  color: rgb(86, 99, 169);
+  font-weight: bolder;
+  z-index: 1000;
+}
+
+button:hover {
+  cursor: pointer !important;
+}
+
+.header {
+  background-color: whitesmoke;
+  color: rgb(86, 99, 169);
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.title-div {
   display: flex;
-  flex-direction: column;
+  align-self: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.form-div {
+  /* border: 3px solid rgb(221, 219, 0); */
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phone-fix {
+  display: flex;
+}
+
+.phone-label {
+  margin-right: 1rem;
+}
+
+.terms {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.terms-titles {
+  color: whitesmoke;
+}
+
+.terms-bottom {
+  position: fixed;
+  width: 600px;
+  bottom: 1rem;
+  left: 50%;
+  margin-left: -300px;
+  box-shadow: 1px 35px 31px -19px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 1px 35px 31px -19px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 1px 35px 31px -19px rgba(0, 0, 0, 0.43);
 }
