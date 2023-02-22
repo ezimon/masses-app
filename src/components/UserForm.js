@@ -91,97 +91,106 @@ export const UserForm = () => {
       </div>
       <br />
       <br />
-      <div className="form-div">
-        <div className="form">
-          <label>
-            Project:{"    "}
-            <select
-              name="project"
-              onChange={(event) => {
-                setForm({ ...form, project: event.target.value });
-              }}
-            >
-              {projects.map((project) => (
-                <option value={project}>{project}</option>
-              ))}
-            </select>
-          </label>
-          <br />
-          <label>
-            Name:{"    "}
-            <input
-              type="text"
-              name="name"
-              onChange={(event) => {
-                setForm({ ...form, name: event.target.value });
-              }}
-            />
-          </label>
-          <br />
-          <label>
-            Last name:{"    "}
-            <input
-              type="text"
-              name="surname"
-              onChange={(event) => {
-                setForm({ ...form, surname: event.target.value });
-              }}
-            />
-          </label>
-          <br />
-          <label>
-            ID:{"    "}
-            <input
-              type="text"
-              name="id"
-              onChange={(event) => {
-                setForm({ ...form, id: event.target.value });
-                //   setId(event.target.value);
-              }}
-            />
-          </label>
-          <br />
-          <label>
-            Date of birth:{"    "}
-            <input
-              type="date"
-              name="birthday"
-              onChange={(event) => {
-                setForm({ ...form, birthday: event.target.value });
-              }}
-            />
-          </label>
-          <br />
-          <Nations form={form} setForm={setForm} selectType={"nationality"} />
-          <br />
-          <Nations form={form} setForm={setForm} selectType={"current"} />
-          <br />
-          <label>
-            Email:{"    "}
-            <input
-              type="text"
-              name="email"
-              onChange={(event) => {
-                setForm({ ...form, email: event.target.value });
-              }}
-            />
-          </label>
-          <br />
-          <label className="phone-fix">
-            <div className="phone-label">Phone number:</div>
-            <PhoneInput
-              placeholder="Enter phone number"
-              name="phone"
-              value={phone}
-              onChange={setPhone}
-            />
-          </label>
+      {projects.length < 1 ? (
+        <>
           <br />
           <br />
           <br />
+          <div class="loader"></div>
+        </>
+      ) : (
+        <div className="form-div fade">
+          <div className="form">
+            <label>
+              Project:{"    "}
+              <select
+                name="project"
+                onChange={(event) => {
+                  setForm({ ...form, project: event.target.value });
+                }}
+              >
+                {projects.map((project) => (
+                  <option value={project}>{project}</option>
+                ))}
+              </select>
+            </label>
+            <br />
+            <label>
+              Name:{"    "}
+              <input
+                type="text"
+                name="name"
+                onChange={(event) => {
+                  setForm({ ...form, name: event.target.value });
+                }}
+              />
+            </label>
+            <br />
+            <label>
+              Last name:{"    "}
+              <input
+                type="text"
+                name="surname"
+                onChange={(event) => {
+                  setForm({ ...form, surname: event.target.value });
+                }}
+              />
+            </label>
+            <br />
+            <label>
+              ID:{"    "}
+              <input
+                type="text"
+                name="id"
+                onChange={(event) => {
+                  setForm({ ...form, id: event.target.value });
+                  //   setId(event.target.value);
+                }}
+              />
+            </label>
+            <br />
+            <label>
+              Date of birth:{"    "}
+              <input
+                type="date"
+                name="birthday"
+                onChange={(event) => {
+                  setForm({ ...form, birthday: event.target.value });
+                }}
+              />
+            </label>
+            <br />
+            <Nations form={form} setForm={setForm} selectType={"nationality"} />
+            <br />
+            <Nations form={form} setForm={setForm} selectType={"current"} />
+            <br />
+            <label>
+              Email:{"    "}
+              <input
+                type="text"
+                name="email"
+                onChange={(event) => {
+                  setForm({ ...form, email: event.target.value });
+                }}
+              />
+            </label>
+            <br />
+            <label className="phone-fix">
+              <div className="phone-label">Phone number:</div>
+              <PhoneInput
+                placeholder="Enter phone number"
+                name="phone"
+                value={phone}
+                onChange={setPhone}
+              />
+            </label>
+            <br />
+            <br />
+            <br />
+          </div>
+          <button onClick={() => checkData()}>Next</button>
         </div>
-        <button onClick={() => checkData()}>Next</button>
-      </div>
+      )}
     </div>
   );
 };
