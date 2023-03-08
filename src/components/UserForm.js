@@ -81,7 +81,7 @@ export const UserForm = () => {
       <div className="header">
         {/* <h1> */}
         {/* Welcome to <br /> */}
-        The Masses's Terms and Conditions & Policy
+        Terms and Conditions & Privacy Policy
         {/* </h1> */}
       </div>
       <br />
@@ -190,7 +190,9 @@ export const UserForm = () => {
             <br />
             <br />
           </div>
-          <button onClick={() => checkData()}>Next</button>
+          <button onClick={() => checkData()}>
+            I understand, that to participate I must accept T&C and PP
+          </button>
         </div>
       )}
     </div>

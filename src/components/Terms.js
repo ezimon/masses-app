@@ -28,14 +28,17 @@ export const Terms = () => {
 
   return (
     <div>
-      <div className="header">The Masses's Terms and Conditions & Policy</div>
+      <div className="header">
+        Terms and Conditions &amp; Privacy Policy
+      </div>
       <div className="terms">
+        <h1 className="terms-titles">Terms and Conditions:</h1>
         <h3 className="terms-titles">Introduction:</h3>
         Welcome to the Mobile Application and the Internet Site
-        www.massesapp.com and its associated services, such as the mobile and/or
-        web applications (hereinafter "The Mobile Application and the Site")
-        owned by MASSES GLOBAL SAS (together with its affiliated and related
-        companies, “MASSES” and/or “MASSES GLOBAL SAS”). The terms and
+        https://www.massescontent.com/ and its associated services, such as the
+        mobile and/or web applications (hereinafter "The Mobile Application and
+        the Site") owned by MASSES GLOBAL SAS (together with its affiliated and
+        related companies, “MASSES” and/or “MASSES GLOBAL SAS”). The terms and
         conditions described below (hereinafter the "T&amp;Cs") are intended to
         regulate the use made by people who access the Mobile Application and
         the Site.
@@ -52,7 +55,7 @@ export const Terms = () => {
         MASSES only provides the Mobile Application and the Site to bring
         together both the Offering User of a service (hereinafter "Offering
         Users") and the User interested in contracting such offers (hereinafter
-        "User", and as a whole with the Offering Users " Users ”).
+        "User", and as a whole with the Offering Users "Users”).
         <br />
         <br />
         The Offering User may offer on the Platform Audiovisual Content
@@ -92,22 +95,22 @@ export const Terms = () => {
         the Users' ability to provide such content or to pay for them.
         <br />
         <br />
-        The T&amp;Cs as well as the Privacy Policies and/or information about
-        the Mobile Application and the Site apply to all Users of the Mobile
-        Application and the Site from the first moment they enter it. These
-        T&amp;Cs are mandatory and binding and apply to all activities carried
-        out on the Mobile Application and the Site. If Users do not fully accept
-        these T&amp;Cs, and the Privacy Policies and other legal notices of the
-        Site, they shall not use the Mobile Application and the Site.
+        The T&Cs as well as the Privacy Policies and/or information about the
+        Mobile Application and the Site apply to all Users of the Mobile
+        Application and the Site from the first moment they enter it. These T&Cs
+        are mandatory and binding and apply to all activities carried out on the
+        Mobile Application and the Site. If Users do not fully accept these
+        T&Cs, and the Privacy Policies and other legal notices of the Site, they
+        shall not use the Mobile Application and the Site.
         <br />
         <br />
         The User and Offering User are responsible for ensuring that all persons
         who access the Mobile Application and the Site through their Internet
-        connection are aware of the T&amp;Cs and that they comply with them.
+        connection are aware of the T&Cs and that they comply with them.
         <br />
         <br />
         <h3 className="terms-titles">
-          Declaration of Offering Users and Users :
+          Declaration of Offering Users and Users:
         </h3>
         The Offering User declares, understands and declares:
         <ul className="a" style={{ listStyleType: "circle" }}>
@@ -148,12 +151,12 @@ export const Terms = () => {
         <br />
         <h3 className="terms-titles">You must know:</h3>
         Before each contract, as User and Offering User, you will have to read,
-        understand and accept all the conditions established in the T&amp;Cs and
-        in the Policies of MASSES. If you use the Mobile Application and the
-        Site, it means that you have fully accepted the conditions established
-        in the T&amp;Cs and in the MASSES Policies. We shall have the right to
-        suspend or delete certain User accounts that by action or omission
-        commit a violation of these T&amp;Cs.
+        understand and accept all the conditions established in the T&Cs and in
+        the Policies of MASSES. If you use the Mobile Application and the Site,
+        it means that you have fully accepted the conditions established in the
+        T&Cs and in the MASSES Policies. We shall have the right to suspend or
+        delete certain User accounts that by action or omission commit a
+        violation of these T&Cs.
         <br />
         <br />
         Once you have registered as Offering User you will periodically receive
@@ -176,7 +179,7 @@ export const Terms = () => {
         <br />
         As Users, you must guarantee and respond, in any case, to the
         truthfulness, accuracy, validity and authenticity of the Personal Data
-        entered.
+        entered. entered.
         <br />
         <br />
         MASSES may use various means to identify its Users, but MASSES is not
@@ -203,7 +206,7 @@ export const Terms = () => {
         show said UGC, always by virtue of the purposes proposed for each call.
         If in the UGC you have included personal data about another person,
         before sending it, you must ensure and guarantee that said person has
-        consented to be bound by these T&amp;Cs.
+        consented to be bound by these T&Cs.
         <br />
         <br />
         As User and Offering User, you accept and understand that MASSES can
@@ -219,7 +222,7 @@ export const Terms = () => {
         <br />
         <br />
         <h3 className="terms-titles">
-          UGC rules, that is, all content uploaded, sent and chosen :
+          UGC rules, that is, all content uploaded, sent and chosen:
         </h3>
         You have to know that as Offering User you are accepting and
         guaranteeing that the UGC sent does not contain:
@@ -227,7 +230,6 @@ export const Terms = () => {
           <li>Material that is Defamatory for anyone</li>
           <li>Any obscene, offensive, defamatory material</li>
           <li>Any sexually explicit material</li>
-          <li>Any material that promotes violence</li>
           <li>Any material that promotes violence</li>
           <li>
             Any material that promotes discrimination based on race, sex,
@@ -239,7 +241,7 @@ export const Terms = () => {
           <li>The privacy rights of any other person</li>
           <li>
             The personal data of another person, unless you ensure that said
-            person has consented to be bound by these T&amp;Cs
+            person has consented to be bound by these T&amp;amp;Cs
           </li>
           <li>Any material that promotes any illegal activity</li>
           <li>Threats, abuse, or invasion of another person's privacy</li>
@@ -294,7 +296,7 @@ export const Terms = () => {
         <br />
         MASSES may modify the structure of the Mobile Application and the Site
         as well as the mechanism by which the instructions are given, notifying
-        Users through the mechanisms established in the T&amp;Cs. MASSES shall
+        Users through the mechanisms established in the T&Cs. MASSES shall
         understand that Users have acknowledged of and accepted the
         modifications by continuing to use the Mobile Application and the Site
         and participating in calls.
@@ -346,7 +348,7 @@ export const Terms = () => {
             payments, losses, and others. Users accept that they must have the
             knowledge and that they approve that when using the Mobile
             Application and the Site they must assume the risks that this
-            entails under their sole responsibility
+            entails under their sole responsibility.
           </li>
         </ol>
         <br />
@@ -432,28 +434,28 @@ export const Terms = () => {
         <br />
         <h3 className="terms-titles">Company Name and Address:</h3>
         The business name of the company is MASSES GLOBAL SAS, and it
-        establishes its domicile for all questions related to these T&amp;Cs and
-        for any eventuality at Av. Dr. Luis Alberto de Herrera 1248, 11300
+        establishes its domicile for all questions related to these T&Cs and for
+        any eventuality at Av. Dr. Luis Alberto de Herrera 1248, 11300
         Montevideo, Uruguay. (Sinergia WTC).
         <br />
         <br />
         <h3 className="terms-titles">Notifications:</h3>
         All notifications and/or communications that must be made for the use of
-        the website under these T&amp;Cs, must be made in writing: (i) To Users:
-        by email, to the email account provided by them, or by registered
-        letter, to the address declared in the registration form; (ii) to
-        MASSES: to the email account info@massesapp.com, or to its legal address
-        indicated in the previous item.
+        the website under these T&Cs, must be made in writing: (i) To Users: by
+        email, to the email account provided by them, or by registered letter,
+        to the address declared in the registration form; (ii) to MASSES: to the
+        email account: legal@massescontent.com or to its legal address indicated
+        in the previous item.
         <br />
         <br />
         <h3 className="terms-titles">Jurisdiction and Applicable Law:</h3>
-        These T&amp;Cs are governed without exception and in all their items by
-        the laws of Uruguay and shall be interpreted in accordance with them.
+        These T&Cs are governed without exception and in all their items by the
+        laws of Uruguay and shall be interpreted in accordance with them.
         <br />
         <br />
         In the event of any difference, disagreement or conflict derived from
-        the interpretation, validity, scope and/or application of these T&amp;C,
-        the Users shall communicate with MASSES in a reliable way, sending their
+        the interpretation, validity, scope and/or application of these T&C, the
+        Users shall communicate with MASSES in a reliable way, sending their
         claim, so that the parties try to reach an agreement.
         <br />
         <br />
@@ -468,13 +470,228 @@ export const Terms = () => {
         <br />
         <br />
         <h3 className="terms-titles">Terms and Conditions update:</h3>
-        MASSES shall have the right to modify the T&amp;Cs at any time and
-        without prior notice, serving its updated publication on the Mobile
-        Application and the Site as sufficient notification to the Users. Users
-        accept that a printed version of these T&amp;Cs and of any communication
-        given electronically shall be admissible as full evidence in the
-        judicial or administrative proceedings concerning the Mobile Application
-        and the Site.
+        MASSES shall have the right to modify the T&Cs at any time and without
+        prior notice, serving its updated publication on the Mobile Application
+        and the Site as sufficient notification to the Users. Users accept that
+        a printed version of these T&Cs and of any communication given
+        electronically shall be admissible as full evidence in the judicial or
+        administrative proceedings concerning the Mobile Application and the
+        Site.
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1 className="terms-titles">Privacy policy:</h1>
+        <h3 className="terms-titles">
+          1. Who is responsible for the processing of your data?
+        </h3>
+        The one responsible for the processing of your personal data is MASSES
+        GLOBAL SAS (hereinafter, "MASSES"), with registered office at Av. Dr.
+        Luis Alberto de Herrera 1248, 11300 Montevideo, Uruguay (Sinergia WTC).
+        <br />
+        <br />
+        We inform you that the ownership of the Mobile Application and Website
+        of{" "}
+        <a href="https://www.massescontent.com/">
+          https://www.massescontent.com/
+        </a>{" "}
+        hereinafter, “the Website”), belongs to MASSES. <br />
+        <br />
+        The access and/or use of the Mobile Application and Website, confers you
+        the condition of User (hereinafter, the "User"), and implies the
+        acceptance, from said access and/or use, of this Privacy Policy.
+        <br />
+        <br />
+        Users may contact MASSES at the following email address:
+        hello@massescontent.com.
+        <br />
+        <br />
+        <h3 className="terms-titles">
+          2. Why is MASSES entitled to carry out the data processing?
+        </h3>
+        MASSES is entitled to process your data in order to be able to carry
+        out, as a mere technical intermediary, the link between the Offering
+        Users and the Users.
+        <br />
+        <br />
+        MASSES takes the protection of your privacy and personal data very
+        seriously. Therefore, your personal information is kept secure and
+        handled with the utmost care.
+        <br />
+        <br />
+        This Privacy Policy regulates the access and use of the Mobile
+        Application and Website (hereinafter, the "Access and Use of the Site")
+        that are available to Users interested in linking to others in the
+        Website.
+        <br />
+        <br />
+        <h3 className="terms-titles">
+          3. What are the purposes of the processing of your personal data by
+          MASSES?
+        </h3>
+        Your personal data collected by MASSES may be used for the following
+        purposes, according to the consent granted in the corresponding
+        registration form:
+        <br />
+        <br />
+        {"     "}
+        <b class="terms-titles">3.1</b> Linking both categories of Users on the
+        Mobile Application and Website.
+        <br />
+        <br />
+        <b class="terms-titles">3.2</b> The sending of commercial communications
+        and/or Newsletter by MASSES and on behalf of third parties:
+        <br />
+        <br />
+        If the User has so consented, their personal data may be used to send
+        them by letter, telephone, email, SMS/MMS, or by other equivalent
+        electronic means of communication, commercial communications or
+        information from companies related to those with the sectors of:
+        <br />
+        <br />
+        <b class="terms-titles">Telecommunications:</b> Telecommunications and
+        technology products and services.
+        <br />
+        <br />
+        <b class="terms-titles">Marketing or commercial prospecting.</b>
+        <br />
+        <br />
+        <b class="terms-titles">Media and Audiovisual.</b>
+        <br />
+        <br /> <b class="terms-titles">3.3</b> Transfer of personal data to
+        third-party businesses: If the User has consented to this, their data
+        may be transferred to companies related to the sectors that are listed
+        and detailed in item 3.2.
+        <br />
+        <br />
+        The purpose of the assignment will be to send, by letter, telephone,
+        email, SMS/MMS, or by other equivalent electronic means of communication
+        by these companies of information and commercial communications that may
+        be of interest to you.
+        <br />
+        <br />
+        <h3 className="terms-titles">
+          4. Veracity of the data provided by the Users and data of minors
+        </h3>
+        Users guarantee that the personal data provided are true and they take
+        responsibility for communicating to MASSES any modification thereof.
+        Users shall respond, in any case, for the veracity of the data provided,
+        and MASSES shall reserve the right to exclude from the functions
+        provided on the Mobile Application and Website and/or any User who has
+        provided false data, without prejudice to other actions applicable by
+        Law.
+        <br />
+        <br />
+        <h3 className="terms-titles">5. Conservation of data</h3>
+        The personal data provided shall be kept by MASSES as long as the Users
+        do not express their willingness to unsubscribe from the Mobile
+        Application and Website, this in order to receive information about the
+        company's products.
+        <br />
+        <br />
+        <h3 className="terms-titles">
+          6. Users' rights in relation to their data
+        </h3>
+        Users have the right to:
+        <ol>
+          <li>Access your personal data.</li>
+          <li>Request the rectification of inaccurate data.</li>
+          <li>Request its deletion.</li>
+          <li>Request the limitation of the processing of their data.</li>
+          <li>Oppose the processing of their data.</li>
+          <li>Request its portability.</li>
+          <li>Not be subject to automated individual decisions.</li>
+          <li>In addition, Users may exercise their right to be forgotten.</li>
+        </ol>
+        <br />
+        <br />
+        Users can exercise all these rights at the following email address
+        hello@massescontent.com indicating the reason for their request and
+        providing a copy of their ID.
+        <br />
+        <br />
+        Users can also send their request by ordinary mail to the following
+        address: MASSES GLOBAL SAS
+        <br />
+        <br />
+        Av. Dr. Luis Alberto de Herrera 1248, 11300 Montevideo, Uruguay
+        (Sinergia WTC).
+        <br />
+        <br />
+        Without prejudice to any other administrative remedy or legal action,
+        Users shall have the right to file a claim with a Supervisory Authority,
+        in particular in the Member State in which they have their habitual
+        residence, place of work or place of the alleged infringement, in in
+        case they consider that the processing of their personal data is not
+        adequate to the regulations, as well as in the case of not being
+        satisfied with the exercise of their rights. The supervisory authority
+        to which the claim has been submitted will inform the claimant about the
+        course and result of the claim.
+        <br />
+        <br />
+        <h3 className="terms-titles">7. Data security</h3>
+        The protection of the privacy and personal data of Users is very
+        important to MASSES. Therefore, MASSES does everything in its power to
+        prevent their data from being used improperly, allowing access to it
+        only to authorized personnel.
+        <br />
+        <br />
+        MASSES maintains the security levels of protection of personal data in
+        accordance with the applicable regulations and has established all the
+        technical means at its disposal to prevent the loss, misuse, alteration,
+        unauthorized access and theft of the data that Users provide through the
+        Mobile Application and Website without prejudice to informing you that
+        the security measures on the Internet are not impregnable.
+        <br />
+        <br />
+        MASSES undertakes to comply with the duty of secrecy and confidentiality
+        regarding personal data in accordance with the applicable legislation,
+        as well as to grant them a secure processing in the international
+        transfers and assignments of data that, where appropriate, may occur.
+        <br />
+        <br />
+        To register as Offering User and/or User of the Mobile Application and
+        Website, they must choose a password. Users are responsible for
+        maintaining the confidentiality of this password, as well as all the
+        activities that occur in the session started with their name and
+        password.
+        <br />
+        <br />
+        Users undertake to notify MASSES as soon as possible of the unauthorized
+        use of their Username and/or password or any other security failure.
+        MASSES shall not be responsible for the damages or losses that could
+        originate due to the non-fulfillment of this obligation by the User.
+        <br />
+        <h3 className="terms-titles">8. Changes</h3>MASSES reserves the right to
+        review its Privacy Policy at the time it deems appropriate. For this
+        reason, we ask that you regularly check this Privacy Policy to read the
+        most recent version of it. However, any change that occurs in this
+        Privacy Policy will be communicated to the User.
+        <br />
+        <br />
+        <h3 className="terms-titles">9. Links to web pages</h3>The MASSES Mobile
+        Application and Website may contain links to the websites of third party
+        companies and entities. MASSES cannot be held responsible for the way in
+        which these companies treat the protection of privacy and personal data,
+        so we advise you to carefully read the Privacy Policy statements of
+        these web pages that are not owned by MASSES regarding the use,
+        processing and protection of personal data.
+        <br />
+        <br />
+        The conditions offered by these web pages may not be the same as those
+        offered by MASSES.
+        <br />
+        <br /> <h3 className="terms-titles">10. Questions</h3>If you have any
+        questions about this Privacy Policy or the processing of your data,
+        please contact MASSES by email at the following email address:
+        hello@massescontent.com.
+        <br />
+        <br />
+        <h3 className="terms-titles">11. Acceptance and Consent</h3>Users
+        declare to have been informed of the conditions on protection of
+        personal data, accepting and consenting to the treatment thereof by
+        MASSES, in the manner and for the purposes indicated in this Privacy
+        Policy.
         <br />
         <br />
         <br />
@@ -486,7 +703,7 @@ export const Terms = () => {
             <></>
           ) : (
             <button onClick={() => apr()}>
-              I accept the Terms and Conditions
+              I accept the Terms and Conditions and Privacy Policy
             </button>
           )}
         </div>
